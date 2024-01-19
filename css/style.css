@@ -18,7 +18,7 @@ ul, ol {
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
-        letter-spacing: 0.03;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
@@ -31,7 +31,7 @@ ul, ol {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -47,7 +47,7 @@ ul, ol {
     color: #434455;
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
 .address-link:hover,
@@ -57,7 +57,7 @@ ul, ol {
 
 
 
-/* Section one */
+/* Section 1 */
 
 
 .solutions {
@@ -70,8 +70,9 @@ ul, ol {
         font-size: 56px;
         font-weight: 700;
         line-height: 1.07;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
+
 
 .solutions-btn {
     border-radius: 4px;
@@ -84,11 +85,16 @@ ul, ol {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.04;
+        letter-spacing: 0.04em;
+        cursor: pointer;
 }
 
+.solutions-btn:hover,
+.solutions-btn:focus {
+        background-color: #404BBF
+}
 
-/* Section two */
+/* Section 2 */
 
 .quality{
 background: #FFF;
@@ -111,10 +117,10 @@ background: #FFF;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
-/* Our Team */
+/* Section 3 */
 
 .our-team {
 background: #F4F4FD;
@@ -126,7 +132,7 @@ background: #F4F4FD;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
@@ -148,7 +154,7 @@ background: #F4F4FD;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
 .our-team-text {
@@ -156,10 +162,10 @@ background: #F4F4FD;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
-/* Our Portfolio */
+/* Section 4 */
 .our-portfolio {
     background: #FFF;
 }
@@ -170,7 +176,7 @@ background: #F4F4FD;
         font-size: 36px;
         font-weight: 700;
         line-height: 1.11;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
@@ -184,7 +190,7 @@ background: #F4F4FD;
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
 .our-portfolio-text {
@@ -192,7 +198,7 @@ background: #F4F4FD;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
 
 
@@ -209,7 +215,7 @@ font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -222,5 +228,5 @@ font-family: Raleway, sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
